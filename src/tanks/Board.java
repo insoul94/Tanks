@@ -7,8 +7,11 @@ public class Board {
     int numberOfCells;
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("The test string");
-        Thread.sleep(100);
+        for (int i = 0; i < 99; i++) {
+            System.out.println("The test string");
+            Thread.sleep(100);
+        }
+
     }
 
 }
