@@ -10,6 +10,7 @@ public class Board {
         for (int i = 0; i < 99; i++) {
             System.out.println("The test string");
             Thread.sleep(100);
+            System.out.println("I will commit this shit and push");
         }
 
     }
